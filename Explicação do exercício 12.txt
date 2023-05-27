@@ -1,0 +1,28 @@
+Primeiro, o código contém um comentário explicando o conceito de fatorial. A fatorial de um número
+é o produto de todos os números inteiros positivos menores ou iguais a esse número.
+
+Em seguida, temos a declaração de uma função chamada "calcularFatorial". Essa função recebe um parâmetro
+chamado "numero", que representa o número para o qual queremos calcular o fatorial.
+
+Dentro da função, há uma verificação usando um if. Ele verifica se o número é igual a 0 ou 1. Se for,
+significa que o fatorial desse número é 1, então a função retorna 1 imediatamente.
+
+Se o número não for nem 0 nem 1, o código continua executando. É declarada uma variável chamada "resultado"
+e é inicializada com o valor 1. Essa variável será usada para armazenar o resultado do cálculo do fatorial.
+
+Em seguida, há um loop for. Ele começa com a variável "i" igual a 2 e continua enquanto "i" for menor ou
+igual ao número recebido como parâmetro. A cada iteração do loop, a variável "i" é incrementada em 1.
+
+Dentro do loop, há uma operação de multiplicação abreviada. A cada iteração, o valor da variável "i" é
+multiplicado pelo valor atual da variável "resultado" e o resultado é armazenado novamente na variável
+"resultado". Isso é equivalente a calcular o produto de todos os números de 2 até o número recebido como
+parâmetro.
+
+Depois que o loop termina, ou seja, quando "i" é maior que o número recebido como parâmetro, o valor
+final da variável "resultado" é retornado como resultado do cálculo do fatorial.
+
+Por fim, o código chama a função "calcularFatorial" passando o valor 5 como argumento e imprime o
+resultado no console usando console.log.
+
+Portanto, quando esse código é executado, ele calculará o fatorial de 5, que é 120, e imprimirá esse
+valor no console.
